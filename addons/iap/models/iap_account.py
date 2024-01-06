@@ -240,7 +240,7 @@ class IapAccount(models.Model):
         return credit
 
 
-class IAPAccountInfo(models.TransientModel):
+class IAPAccountInfo(models.Model):
     _name = 'iap.account.info'
     _description = 'IAP Account Info'
     _transient_max_hours = 1
